@@ -111,3 +111,63 @@ h6 {
 svg {
   margin-right: 5px;
 }
+.hero {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.hero + .hero {
+  margin-top: 50px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-left {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.hero-title {
+  margin: 0;
+  margin-bottom: 12px;
+  padding-right: 166px;
+  font-size: 36px;
+  color: #0f241d;
+  font-weight: 700;
+}
+
+.hero-desc {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+  flex-direction: column;
+  gap: 15px;
+  display: flex;
+}
+
+.hero-button {
+  width: 150px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.hero-button:hover {
+  transform: scale(1.1);
+}
+
+.hero-right {
+  flex: 0 0 42%;
+  margin-left: 20px;
+}
+
+.hero-img {
+  height: auto;
+}
