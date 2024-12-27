@@ -373,3 +373,66 @@ svg {
   line-height: 1.6;
   margin-bottom: 30px;
 }
+footer {
+  background-color: #ffffff;
+  color: #aaa;
+  padding: 40px 20px;
+  position: relative;
+}
+small-line {
+  width: 15px; /* Ширина линии, регулируйте для уменьшения */
+  height: 2px; /* Толщина линии */
+  background-color: #000; /* Цвет линии */
+  border: none; /* Убирает стандартные границы */
+  margin: 20px auto; /* Центрирует линию с отступами */
+}
+
+footer .top-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+footer .top-section a {
+  color: #222;
+  text-decoration: none;
+  margin: 5px 15px;
+  font-size: 14px;
+}
+
+footer .bottom-section {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+footer .bottom-section .logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+footer .bottom-section .logo img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+footer .bottom-section .pci {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+footer .bottom-section .pci img {
+  height: 40px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: row-reverse; /* Switches the order, image on the left, text on the right */
+  align-items: center;
+}
+
+.image-block {
+  margin-left: 20px; /* Adds space between the image and the text */
+}
