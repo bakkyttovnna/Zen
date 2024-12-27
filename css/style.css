@@ -171,3 +171,35 @@ svg {
 .hero-img {
   height: auto;
 }
+.about {
+  padding: 100px 0;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.about-left {
+  flex: 0 0 40%;
+  margin-left: 20px;
+}
+
+.hero-righ {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-title {
+  font-size: 36px;
+  color: #0f241d;
+  margin-bottom: 20px;
+}
+
+.about-right p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+}
